@@ -7,8 +7,8 @@ class LINE extends Command {
         this.receiverID = '';
         this.checkReader = [];
         this.stateStatus = {
-            cancel: 0,
-            kick: 0,
+            cancel: 1,
+            kick: 1,
         };
         this.messages;
         this.payload;
